@@ -1,0 +1,16 @@
+class Calc {
+      constructor(numero1, numero2){
+        this.num1 = numero1
+        this.num2 = numero2
+      }
+      out(){
+        console.log(this.num1, this.num2);
+        
+      }
+    }
+
+    const a = new Calc(5, 6)
+    a.out()
+
+// result 5 6
+//vai aparecer no console os numeros: 5 6
