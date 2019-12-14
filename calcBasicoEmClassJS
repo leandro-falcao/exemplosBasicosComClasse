@@ -1,13 +1,13 @@
     //
     class Calc {
-      constructor(numero1, numero2){
-        this.num1 = numero1
-        this.num2 = numero2
+      constructor(num1, num2){
+        this.num1 = num1
+        this.num2 = num2
       }
       out(){
-        console.log(this.num1, this.num2);
+        console.log('valor-num1', this.num1, 'valor-num1', this.num2);
         
-        document.querySelector('.root').innerHTML = ` numero eh ( ${this.num1} ) multiplicado por numero2 fica: ( ${this.num1*this.num2} )`
+        document.querySelector('.root').innerHTML = `numero é ( ${this.num1} ) multiplicado por numero2 fica: ( ${this.num1*this.num2} )`
         
          document.querySelector('.principal').setAttribute('style', 'color: #e0a; font-size: 3rem; margin-top: 3rem; font-weight: 900;')
         
